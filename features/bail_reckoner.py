@@ -7,7 +7,7 @@ import google.generativeai as genai
 
 # Configure Gemini API
 api_key = st.secrets["GEMINI_API_KEY"]
-genai.configure(api_key)
+genai.configure(api_key = api_key)
 
 # Create the model
 generation_config = {
