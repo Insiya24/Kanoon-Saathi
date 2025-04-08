@@ -29,22 +29,7 @@ India’s legal system faces massive challenges: over 5.3 crore pending cases an
 
 ## 📁 Project Structure
 
-ExploreFeaturesApp/ 
-│ 
-├── features/ 
-│ ├── case_prioritization.py 
-│ ├── legal_research.py 
-│ ├── bail_reckoner.py 
-│ └── citizen_law.py 
-│ 
-├── uploads/  
-├── cases.csv 
-├── upvotes.csv 
-├── testimonials.csv 
-├── main_app.py # Streamlit app entry point 
-├── requirements.txt 
-└── .streamlit/ 
-└── CONFIG.toml 
+ExploreFeaturesApp/ ├── features/ │ ├── case_prioritization.py │ ├── legal_research.py │ ├── bail_reckoner.py │ └── citizen_law.py ├── uploads/ ├── cases.csv ├── upvotes.csv ├── testimonials.csv ├── main_app.py # Streamlit app entry point ├── requirements.txt ├── CONFIG.toml └── .streamlit/
 
 ---
 
