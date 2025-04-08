@@ -36,7 +36,7 @@ ExploreFeaturesApp/ ├── features/ │ ├── case_prioritization.py │
 ## ▶️ How to Run Locally
 
 1. **Clone the repo:**
-git clone https://github.com/your-username/legal-ai-system.git
+git clone [https://github.com/your-username/legal-ai-system.git](https://github.com/Insiya24/Kanoon-Saathi/tree/main)
 cd legal-ai-system
 
 2. **Install requirements:**
