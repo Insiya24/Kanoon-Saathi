@@ -2,3 +2,11 @@
 headless = true
 port = 8501
 enableCORS = false
+[theme]
+base="light"
+primaryColor="#7D4E24"
+backgroundColor="#FAE0B2"
+secondaryBackgroundColor="#F1B376"
+textColor="#000000"
+font="sans serif"
+
