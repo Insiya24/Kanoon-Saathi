@@ -6,7 +6,7 @@ from PyPDF2 import PdfReader
 
 # Configure Gemini API key
 api_key = st.secrets["GEMINI_API_KEY"]
-genai.configure(api_key)
+genai.configure(api_key = api_key)
 
 # Load models
 text_model = genai.GenerativeModel('gemini-1.5-pro')
