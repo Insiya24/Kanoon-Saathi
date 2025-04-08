@@ -37,8 +37,7 @@ ExploreFeaturesApp/
 │ ├── bail_reckoner.py 
 │ └── citizen_law.py 
 │ 
-├── uploads/ 
-# Proofs uploaded for testimonials 
+├── uploads/  
 ├── cases.csv 
 ├── upvotes.csv 
 ├── testimonials.csv 
