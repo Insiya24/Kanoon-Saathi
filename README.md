@@ -26,9 +26,47 @@ India’s legal system faces massive challenges: over 5.3 crore pending cases an
 - Public voting system for legal cases
 - Accepts anonymous testimonials and evidence
 - Creates a priority list based on public concern
-- Enhances accountability & civic participation
+
+## 📁 Project Structure
+
+ExploreFeaturesApp/ 
+│ 
+├── features/ 
+│ ├── case_prioritization.py 
+│ ├── legal_research.py 
+│ ├── bail_reckoner.py 
+│ └── citizen_law.py 
+│ 
+├── uploads/ 
+# Proofs uploaded for testimonials 
+├── cases.csv 
+├── upvotes.csv 
+├── testimonials.csv 
+├── main_app.py # Streamlit app entry point 
+├── requirements.txt 
+└── .streamlit/ 
+└── CONFIG.toml 
 
 ---
+
+---
+
+## ▶️ How to Run Locally
+
+1. **Clone the repo:**
+git clone https://github.com/your-username/legal-ai-system.git
+cd legal-ai-system
+
+2. **Install requirements:**
+pip install -r requirements.txt
+Add Gemini API Key:
+Create a file: .streamlit/secrets.toml
+[gemini]
+api_key = "your_actual_gemini_key_here"
+
+3. **Run the app:**
+streamlit run main_app.py
+
 
 
 > 💡 *Kanoon Saathi* brings law closer to the people—accessible, understandable, and participatory.
